@@ -11,7 +11,7 @@ After completing these steps you will have logged into maintenance planner for g
 2. Enter the user details provided by speakers to login to the maintenance planner.
 
 3. You should be able to see the following home page after logging in:
-   <br><div style="border: 1px solid #87CEEB;">![](/exercises/ex1/images/mp_027.png)<div>
+   > <i><div style="border: 1px solid #87CEEB;">![](/exercises/ex1/images/mp_027.png)<div>
 
 ## Exercise 1.2 Plan for SAP S/4HANA conversion
 
@@ -20,7 +20,8 @@ After completing these steps you will have generated the stack XML for the syste
 Continue as described below.
 
 1. Click on the "Plan for SAP S/4HANA" tile.
-   <br><div style="border: 1px solid #87CEEB;">![](/exercises/ex1/images/mp_001.png)<div>
+
+   > <i><div style="border: 1px solid #87CEEB;">![](/exercises/ex1/images/mp_001.png)
 
 2. Click on the option "Manual Conversion" under "Convert Existing SAP ERP System to SAP S/4HANA System". Read the contents briefly to understand the pre-requisites, tools and steps involved in the system conversion process. Click on "Next" once done.
    <br><div style="border: 1px solid #87CEEB;">![](/exercises/ex1/images/mp_002.png)<div>
