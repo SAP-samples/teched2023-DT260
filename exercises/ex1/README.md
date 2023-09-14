@@ -21,6 +21,8 @@ Continue as described below.
 
 1. <b> Plan for SAP S/4HANA tile </b>
 
+   Click on Plan for SAP S/4HANA tile.
+
    > <i>![](/exercises/ex1/images/mp_001.png)</i>
 
 2. <b> Overview </b>
@@ -76,6 +78,18 @@ Continue as described below.
    In case there are any warnings, then you will get an additional confirmation step as follows. Click on Continue:
 
    > <i>![Warning](/exercises/ex1/images/mp_008.png)</i>
+
+## Exercise 1.3 Generate stack XML using the planning guided procedure
+
+1. <b> Define Change </b>
+
+   On clicking "Continue Planning" in the previous guided procedure of Exercise 1.2, you will land into the "Define Change" step. Notice that the plan-id is the same as the previous guided procedure.
+
+   The target will have been applied based on the SAP product model, and the selections done in the previous steps. Review the selections and click on "Next" to continue.
+
+   > <i>![Define Change](/exercises/ex1/images/mp_009.png)</i>
+
+2.
 
 ## Summary
 
