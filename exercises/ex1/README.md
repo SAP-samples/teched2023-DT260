@@ -89,7 +89,95 @@ Continue as described below.
 
    > <i>![Define Change](/exercises/ex1/images/mp_009.png)</i>
 
-2.
+2. <b> Select Files: Select OS/DB dependent files </b>
+
+   In this step, you can select additional software required for the conversion. This includes:
+
+   - SAP Kernel and related components like SAP IGS.
+   - Software Logistic tools like Software Update Manager
+   - SAP Host Agent
+   - SAP HANA Database and Client revision
+
+   Click on the expand arrow to see the list of selectable software.
+
+   > <i>![Select OS/DB files](/exercises/ex1/images/mp_010.png)</i>
+
+   Select the required checkbox to select the child entities, as shown below.
+
+   > <i>![Select OS/DB files](/exercises/ex1/images/mp_011.png)</i>
+
+   Click on "Confirm Selection".
+
+   A warning pop-up comes up to outline the dependencies between SAP Kernel and SAP IGS. In the case of this hands-on session, this can be ignored and you may click on "Continue" to calculate the delta packages.
+
+   > <i>![Select OS/DB files](/exercises/ex1/images/mp_012.png)</i>
+
+3. <b> Select Files: Select Stack Dependent and Independent files </b>
+
+   This step is meant to present the list of all the calculated delta packages which are required by Software Logistic tools to implement. This delta includes:
+
+   - Add-on installation packages, if there are any for the planned target.
+   - Support-Packages of the selected target.
+   - Add-on exchange upgrade packages, if there are any relevant for the target.
+   - Attribute Change Packages (ACPs), if there are any required for this plan.
+   - Files for non-ABAP components like SAP Kernel, SAP IGS, Software Logistic tools, SAP Kernel hotfix patches like R3Trans.
+   - Installation or Upgrade archives (including languages) for SAP S/4HANA product versions.
+
+   You may explore these in this step by collapsing/expanding the relevant tree nodes.
+
+   > <i>![Select Stack files](/exercises/ex1/images/mp_013.png)</i>
+
+   > <i>![Select Stack files](/exercises/ex1/images/mp_014.png)</i>
+
+   You may want to include additional HR packages into the plan, for which you can use the "Add HR Packages" button.
+
+   > <i>![Select Stack files](/exercises/ex1/images/mp_015.png)</i>
+
+   This opens a pop-up with the list of additional HR packages which get included in the plan as per your selections.
+
+   > <i>![Select Stack files](/exercises/ex1/images/mp_016.png)</i>
+
+   Click on Next to continue to Download Files step.
+
+   > <i>![Select Stack files](/exercises/ex1/images/mp_017.png)</i>
+
+4. <b> Download Files </b>
+
+   In this step, you see the list of all the files which have been collected by maintenance planner for the plan to be implemented. In addition, you can download stack XML, push the archives to download basket and also download additional files for traceability.
+
+   > <i>![Download Stack XML](/exercises/ex1/images/mp_018.png)</i>
+
+   Stack XML file contents:
+
+   > <i>![Stack XML](/exercises/ex1/images/mp_019.png)</i>
+
+   > <i>![Push to Download Basket](/exercises/ex1/images/mp_020.png)</i>
+
+   Download plan PDF:
+
+   > <i>![Download plan PDF](/exercises/ex1/images/mp_021.png)</i>
+
+   > <i>![View plan PDF](/exercises/ex1/images/mp_022.png)</i>
+
+   Export planned files metadata into an excel:
+
+   > <i>![Export to Microsoft Excel](/exercises/ex1/images/mp_023.png)</i>
+
+   View contents:
+
+   > <i>![View contents](/exercises/ex1/images/mp_024.png)</i>
+
+   Click on Next to go to Complete step.
+
+   > <i>![Next](/exercises/ex1/images/mp_025.png)</i>
+
+5. <b> Complete </b>
+
+   In this step, you can save the plan and see the contents of the plan PDF. Click on the home icon to go to the home page of maintenance planner.
+
+   > <i>![Save plan](/exercises/ex1/images/mp_026.png)</i>
+
+   > <i>![Home page](/exercises/ex1/images/mp_027.png)</i>
 
 ## Summary
 
