@@ -26,9 +26,9 @@ Following are the different exercises offered as a part of this hands-on session
 - [Exercise 2 - Validate your business data using Data Transition Validation tool](exercises/ex2/)
   - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
   - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-- [Exercise 3 - Identify critical SAP Notes recommendation for your SAP S/4HANA systems](exercises/ex2/)
-  - [Exercise 3.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex3#exercise-31-sub-exercise-1-description)
-  - [Exercise 3.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex3#exercise-32-sub-exercise-2-description)
+- [Exercise 3 - Identify critical SAP Notes recommendation for your SAP S/4HANA systems](exercises/ex3/)
+  - [Exercise 3.1 - Login to Maintenance Planner](exercises/ex3#exercise-31-sub-exercise-1-description)
+  - [Exercise 3.2 - Identify critical SAP Notes recommendation](exercises/ex3#exercise-32-sub-exercise-2-description)
 
 **OR** Link to the Tutorial Navigator for example...
 
