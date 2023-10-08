@@ -1,6 +1,6 @@
-# Exercise 2 - Validate your business data using Data Transition Validation tool
+# Exercise 2 - Exercise 2 Description
 
-In this exercise, we will validate...
+In this exercise, we will create...
 
 ## Exercise 2.1 User and project setup
 
