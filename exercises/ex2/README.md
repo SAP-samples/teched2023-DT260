@@ -1,19 +1,28 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Validate your business data using Data Transition Validation tool
 
-In this exercise, we will create...
+In this exercise, we will validate...
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Exercise 2.1 User and project setup
 
-After completing these steps you will have created...
+After completing these steps you will have logged in to the ABAP system with authorized user.
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+### Exercise 2.1.1 User setup
+You have been assigned a user with needed authorization to execute DTV tool. Using the user provided, enter the system. 
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+### Exercise 2.1.2 Project setup
 
+1. Enter transaction DTV and press enter.
+![Alt text](dtv_001.png)
+<br>![](/exercises/ex2/images/dtv_001.png)
+
+2. Enter project name as DT260_XXX_PRJ and click on change.
+(Replace XXX with your user number).
+![Alt text](dtv_002.png)
+<br>![](/exercises/ex2/images/dtv_002.png)
+
+3. The project is opened with pre-defined steps to perform validation.
+![Alt text](dtv_003.png)
+<br>![](/exercises/ex2/images/dtv_003.png)
 
 
 ## Exercise 2.2 Sub Exercise 2 Description
