@@ -56,17 +56,33 @@ After completing these steps you will have...
 1. Click on back button on maintain systems screen
 <br>![](/exercises/ex2/images/Pre-delivered%20content/image-8.png)
 
-2.	Double click on Pre Delivered Content
+2. Double click on Pre Delivered Content
 <br>![](/exercises/ex2/images/Pre-delivered%20content/image-9.png)
 
-3.	Expand Financial Accounting in test specification column.
-4.	Go to Open Items/ Line Items->Reports and select RFDEPL00 report.
-5.	Go to General ->Reports and select RFBILA00 report.
+3. Expand Financial Accounting in test specification column.
+4. Go to Open Items/ Line Items->Reports and select RFDEPL00 report.
+5. Go to General ->Reports and select RFBILA00 report.
 <br>![](/exercises/ex2/images/Pre-delivered%20content/image-10.png)
 
 6.	Click on Import Specification and confirm.
 <br>![](/exercises/ex2/images/Pre-delivered%20content/image-11.png)
 
+
+### Exercise 2.2.2 Import test from predelivered content
+1. Click on back button and double click on Define Test Specification
+<br>![](/exercises/ex2/images/Define%20test%20specification/image-0.png)
+
+2. Double click on report name and go to split tab. 
+<br>![](/exercises/ex2/images/Define%20test%20specification/image-1.png)
+
+3. Go to Condition tab. Use the drop down to switch system and check the conditions for each system (ECC and S4).
+<br>![](/exercises/ex2/images/Define%20test%20specification/image-2.png)
+
+4. Go to variant tab.
+<br>![](/exercises/ex2/images/Define%20test%20specification/image-3.png)
+
+5. Click on save.
+<br>![](/exercises/ex2/images/Define%20test%20specification/image-4.png)
 
 You've now ...
 
