@@ -12,39 +12,43 @@ You have been assigned a user with needed authorization to execute DTV tool. Usi
 ### Exercise 2.1.2 Project setup
 
 1. Enter transaction DTV and press enter.
-![Alt text](dtv_001.png)
-<br>![](/exercises/ex2/images/dtv_001.png)
+<br>![Alt text](dtv_001.png)
 
 2. Enter project name as DT260_XXX_PRJ and click on change.
 (Replace XXX with your user number).
-![Alt text](dtv_002.png)
-<br>![](/exercises/ex2/images/dtv_002.png)
+<br>![Alt text](dtv_002.png)
 
 3. The project is opened with pre-defined steps to perform validation.
-![Alt text](dtv_003.png)
-<br>![](/exercises/ex2/images/dtv_003.png)
+<br>![Alt text](dtv_003.png)
 
 
-## Exercise 2.2 Sub Exercise 2 Description
+## Exercise 2.2 Finalize and maintain test bed for validation
 
 After completing these steps you will have...
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
+### Exercise 2.2.1 Maintain systems
+1. Double click on step Maintain Sytems.
+<br>![Alt text](dtv_001.png)
 
-```
+2. Click on Append Row icon.
 
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+3. Enter name field as “ECC”.
 
-## Summary
+4. Select system role as “Source system” from the dropdown.
+
+5. Click on Append row icon
+
+6. Enter name field as “S4HANA”
+
+7. Select System Role as “Receiver System from the dropdown.
+
+8. Click on save
+
+
+
+### Exercise 2.2.2 Import test from predelivered content
+
+
 
 You've now ...
 
