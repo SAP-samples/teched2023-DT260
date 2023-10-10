@@ -1,4 +1,4 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Validate your business data using Data Transition Validation tool
 
 In this exercise, we will create...
 
@@ -113,7 +113,7 @@ After completing these steps you will have...
 6. Click on save button.
 <br>![](/exercises/ex2/images/Project%20global%20data/image-6.png)
 
-## Exercise 2.3 Perform simumation (OPTIONAL)
+## Exercise 2.3 Perform simulation (OPTIONAL)
 ...
 ### Exercise 2.3.1 Execute simulation
 1. Click on back button and double click on Define Test Specification step.
