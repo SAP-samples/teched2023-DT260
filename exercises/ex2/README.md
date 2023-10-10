@@ -68,7 +68,7 @@ After completing these steps you will have...
 <br>![](/exercises/ex2/images/Pre-delivered%20content/image-11.png)
 
 
-### Exercise 2.2.2 Import test from predelivered content
+### Exercise 2.2.2 Maintain test specification
 1. Click on back button and double click on Define Test Specification
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-0.png)
 
@@ -83,6 +83,61 @@ After completing these steps you will have...
 
 5. Click on save.
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-4.png)
+
+
+### Exercise 2.2.3 Maintain project global data
+1. Click on back button and double click on Project Global Data
+<br>![](/exercises/ex2/images/Project%20global%20data/image-0.png)
+
+2. Double Click on Company_Code to maintain company code values. 
+<br>![](/exercises/ex2/images/Project%20global%20data/image-1.png)
+
+3. Click on Append row in the item table
+<br>![](/exercises/ex2/images/Project%20global%20data/image-2.png)
+
+4. Select from drop down the following values:
+    •	Sign – “Range limit Included”
+    •	Option – “Equals”
+    •	From – “1000”
+<br>![](/exercises/ex2/images/Project%20global%20data/image-3.png)
+
+4. Click on Append row button
+<br>![](/exercises/ex2/images/Project%20global%20data/image-4.png)
+
+5. Select from drop down the following values:
+    •	Sign – “Range limit Included”
+    •	Option – “Equals”
+    •	From – “2000”
+<br>![](/exercises/ex2/images/Project%20global%20data/image-5.png)
+
+6. Click on save button.
+<br>![](/exercises/ex2/images/Project%20global%20data/image-6.png)
+
+## Exercise 2.3 Perform simumation (OPTIONAL)
+...
+### Exercise 2.3.1 Execute simulation
+1. Click on back button and double click on Define Test Specification step.
+<br>![](/exercises/ex2/images/Simulation/image-0.png)
+
+2. Select both reports and click on Simulate button. (To select both reports, click on select all button on the alv) 
+<br>![](/exercises/ex2/images/Simulation/image-1.png)
+
+3. Click on refresh button to check the simulation status. Make sure you select both reports and click on refresh button to refresh simulation for reports at once.
+<br>![](/exercises/ex2/images/Simulation/image-2.png)
+
+4. Repeat step 4 until the Simulation status is completed (checked flag).
+<br>![](/exercises/ex2/images/Simulation/image-3.png)
+
+### Exercise 2.3.2 Check simulation results
+1. Click on the Simulation result link corresponding to RFBILA00 report.
+<br>![](/exercises/ex2/images/Simulation/image-4.png)
+
+2. Check the Result.
+<br>![](/exercises/ex2/images/Simulation/image-5.png)
+
+3. Check Logs
+<br>![](/exercises/ex2/images/Simulation/image-6.png)
+
 
 You've now ...
 

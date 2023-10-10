@@ -25,7 +25,7 @@ Following are the different exercises offered as a part of this hands-on session
   - [Exercise 1.3 - Generate stack XML using the planning guided procedure](exercises/ex1#exercise-13-generate-stack-xml-using-the-planning-guided-procedure)
 - [Exercise 2 - Validate your business data using Data Transition Validation tool](exercises/ex2/)
   - [Exercise 2.1 - User and Project Setup](exercises/ex2#exercise-21-user-and-project-setup)
-  - [Exercise 2.2 - Finalize and maintain test bed for validation](exercises/ex2#exercise-22-sub-exercise-2-description)
+  - [Exercise 2.2 - Finalize and maintain test bed for validation](exercises/ex2#exercise-22-finalize-and-maintain-test-bed-for-validation)
   - [Exercise 2.3 - Perform Simulation (Optional)](exercises/ex2#exercise-22-sub-exercise-2-description)
   - [Exercise 2.4 - Extraction in Source system](exercises/ex2#exercise-22-sub-exercise-2-description)
   - [Exercise 2.5 - Extraction in Target System](exercises/ex2#exercise-22-sub-exercise-2-description)
