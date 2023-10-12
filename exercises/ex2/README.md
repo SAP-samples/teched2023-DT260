@@ -138,6 +138,37 @@ After completing these steps you will have...
 3. Check Logs
 <br>![](/exercises/ex2/images/Simulation/image-6.png)
 
+## Exercise 2.4 Extraction in source system
+...
+### Exercise 2.4.1 Execute extraction
+1. Click on back button and double click on Execute Data Extraction step.
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-0.png)
+
+2. Select Financial Accounting and click on Expand Button
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-1.png)
+
+3. Double click on RFBILA00 > ECC node. Right side of the screen is loaded showing different tabs.
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-2.png)
+
+4. Select RFBILA00>ECC and RFDEPL00>ECC.  And click on Run Selected button. (Press Ctrl and select both nodes)
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-3.png)
+
+5. Click on Refresh to fetch the latest status. Once the execution status is completed (green flag), check the details on the right side.
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-4.png)
+
+### Exercise 2.4.2 Check source extraction results
+1. Check Overview tab
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-5.png)
+
+2. Click on XML Test Specification.
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-6.png)
+
+3. Click on Worklist Items tab.
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-7.png)
+
+4. Click on Result Data tab. It shows the actual extracted data
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-8.png)
+
 
 You've now ...
 
