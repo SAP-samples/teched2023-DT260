@@ -2,7 +2,7 @@
 
 In this exercise, we will create...
 
-## Exercise 2.1 User and project setup
+## Exercise 2.1 User and Project setup
 
 After completing these steps you will have logged in to the ABAP system with authorized user.
 
@@ -113,7 +113,7 @@ After completing these steps you will have...
 6. Click on save button.
 <br>![](/exercises/ex2/images/Project%20global%20data/image-6.png)
 
-## Exercise 2.3 Perform simulation (OPTIONAL)
+## Exercise 2.3 Perform Simulation (OPTIONAL)
 ...
 ### Exercise 2.3.1 Execute simulation
 1. Click on back button and double click on Define Test Specification step.
@@ -138,7 +138,7 @@ After completing these steps you will have...
 3. Check Logs
 <br>![](/exercises/ex2/images/Simulation/image-6.png)
 
-## Exercise 2.4 Extraction in source system
+## Exercise 2.4 Extraction in Source system
 ...
 ### Exercise 2.4.1 Execute extraction
 1. Click on back button and double click on Execute Data Extraction step.
@@ -169,7 +169,7 @@ After completing these steps you will have...
 4. Click on Result Data tab. It shows the actual extracted data
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-8.png)
 
-## Exercise 2.5 Extraction in target system
+## Exercise 2.5 Extraction in Target system
 ...
 ### Exercise 2.5.1 Execute extraction
 1. Login to S4 system and launch dtv.
@@ -197,7 +197,7 @@ After completing these steps you will have...
 2. Check extraction details and results on different tabs.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-7.png)
 
-## Exercise 2.6 Execute evaluation
+## Exercise 2.6 Execute Evaluation
 ...
 ### Exercise 2.6.1 Execute evaluation
 1. Go to steps screen and double click on Evaluate Data step.
@@ -236,7 +236,7 @@ After completing these steps you will have...
 <br>![](/exercises/ex2/images/Evaluation/image-10.png)
 
 
-## Exercise 2.7 Check summary
+## Exercise 2.7 Check Summary
 1. Double click on Summary step.
 <br>![](/exercises/ex2/images/Summary/image-0.png)
 
