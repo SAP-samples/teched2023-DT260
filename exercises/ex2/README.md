@@ -173,30 +173,75 @@ After completing these steps you will have...
 ...
 ### Exercise 2.5.1 Execute extraction
 1. Login to S4 system and launch dtv.
-![Alt text](image.png)
+<br>![](/exercises/ex2/images/Extraction%20-%20Target/image-0.png)
 
 2. Enter same project name and click on display.
-![Alt text](image-1.png)
+<br>![](/exercises/ex2/images/Extraction%20-%20Target/image-1.png)
 
 3. Double click on Execute extraction step.
-![Alt text](image-2.png)
+<br>![](/exercises/ex2/images/Extraction%20-%20Target/image-2.png)
 
 4. Click on Financial accounting and expand it.
-![Alt text](image-3.png)
+<br>![](/exercises/ex2/images/Extraction%20-%20Target/image-3.png)
 
 5. Select S4HANA node of both reports and click on Run Selected.
-![Alt text](image-4.png)
+<br>![](/exercises/ex2/images/Extraction%20-%20Target/image-4.png)
 
 6. Click on refresh button until status changes to completed.
-![Alt text](image-5.png)
+<br>![](/exercises/ex2/images/Extraction%20-%20Target/image-5.png)
 
-### Exercise 2.4.2 Check source extraction results
+### Exercise 2.5.2 Check source extraction results
 1. Double click on RFBILA00>S4HANA. The right side of the screen is loaded.
-![Alt text](image-6.png)
+<br>![](/exercises/ex2/images/Extraction%20-%20Target/image-6.png)
 
 2. Check extraction details and results on different tabs.
-![Alt text](image-7.png)
+<br>![](/exercises/ex2/images/Extraction%20-%20Target/image-7.png)
 
+## Exercise 2.6 Execute evaluation
+...
+### Exercise 2.6.1 Execute evaluation
+1. Go to steps screen and double click on Evaluate Data step.
+<br>![](/exercises/ex2/images/Evaluation/image-0.png)
+
+2. Click on Financial Accounting and click on expand button.
+<br>![](/exercises/ex2/images/Evaluation/image-1.png)
+
+3. Double click on RFBILA00 report. The right side of the screen is loaded with different tabs.
+<br>![](/exercises/ex2/images/Evaluation/image-2.png)
+
+4. Select both RFBILA00 and RFDEPL00 report and click on Run Selected.
+<br>![](/exercises/ex2/images/Evaluation/image-3.png)
+
+5. Click on refresh until the evaluation status changed to completed (green flag) 
+<br>![](/exercises/ex2/images/Evaluation/image-4.png)
+
+### Exercise 2.6.2 Check evaluation results
+1. Check Overview tab.
+<br>![](/exercises/ex2/images/Evaluation/image-5.png)
+
+2. Click on Worklist Items. 
+<br>![](/exercises/ex2/images/Evaluation/image-6.png)
+
+3. Click on Result tab. Click on Equal>Data.
+<br>![](/exercises/ex2/images/Evaluation/image-7.png)
+
+4. Check the evaluation results
+<br>![](/exercises/ex2/images/Evaluation/image-8.png)
+
+### Exercise 2.6.3 Sign off
+1. Click on Sign Off>Approve from the menu bar.
+<br>![](/exercises/ex2/images/Evaluation/image-9.png)
+
+2. Check sign off results in Overview tab.
+<br>![](/exercises/ex2/images/Evaluation/image-10.png)
+
+
+## Exercise 2.7 Check summary
+1. Double click on Summary step.
+<br>![](/exercises/ex2/images/Summary/image-0.png)
+
+2.	Check summary of entire project.
+<br>![](/exercises/ex2/images/Summary/image-1.png)
 
 You've now ...
 

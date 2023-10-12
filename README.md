@@ -30,7 +30,7 @@ Following are the different exercises offered as a part of this hands-on session
   - [Exercise 2.4 - Extraction in Source system](exercises/ex2#exercise-22-sub-exercise-2-description)
   - [Exercise 2.5 - Extraction in Target System](exercises/ex2#exercise-22-sub-exercise-2-description)
   - [Exercise 2.6 - Execute Evaluation](exercises/ex2#exercise-22-sub-exercise-2-description)
-  - [Exercise 2.6 - Check Summary](exercises/ex2#exercise-22-sub-exercise-2-description)
+  - [Exercise 2.7 - Check Summary](exercises/ex2#exercise-22-sub-exercise-2-description)
 
   
 - [Exercise 3 - Identify critical SAP Notes recommendation for your SAP S/4HANA systems](exercises/ex3/)
