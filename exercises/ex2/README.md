@@ -169,6 +169,34 @@ After completing these steps you will have...
 4. Click on Result Data tab. It shows the actual extracted data
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-8.png)
 
+## Exercise 2.5 Extraction in target system
+...
+### Exercise 2.5.1 Execute extraction
+1. Login to S4 system and launch dtv.
+![Alt text](image.png)
+
+2. Enter same project name and click on display.
+![Alt text](image-1.png)
+
+3. Double click on Execute extraction step.
+![Alt text](image-2.png)
+
+4. Click on Financial accounting and expand it.
+![Alt text](image-3.png)
+
+5. Select S4HANA node of both reports and click on Run Selected.
+![Alt text](image-4.png)
+
+6. Click on refresh button until status changes to completed.
+![Alt text](image-5.png)
+
+### Exercise 2.4.2 Check source extraction results
+1. Double click on RFBILA00>S4HANA. The right side of the screen is loaded.
+![Alt text](image-6.png)
+
+2. Check extraction details and results on different tabs.
+![Alt text](image-7.png)
+
 
 You've now ...
 
