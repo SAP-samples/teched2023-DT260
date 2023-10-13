@@ -27,9 +27,12 @@ You have been assigned a user with needed authorization to execute DTV tool. Usi
 After completing these steps you will have...
 
 ### Exercise 2.2.1 Maintain systems
+In this exercise, systems are specified that you want to participate in data validation. Usually, these systems are SAP ECC as source and SAP S/4 HANA as target for conversion process. For SAP S/4HANA upgrade process, the source is the current release and the target is the release that you want to upgrade to. </i>
+
 1. Double click on step Maintain Sytems.
 <br>![](/exercises/ex2/images/Maintain%20systems/image-0.png)
 
+> Maintain source system
 2. Click on Append Row icon.
 <br>![](/exercises/ex2/images/Maintain%20systems/image-1.png)
 
@@ -39,6 +42,7 @@ After completing these steps you will have...
 4. Select system role as “Source system” from the dropdown.
 <br>![](/exercises/ex2/images/Maintain%20systems/image-3.png)
 
+>Maintain target system
 5. Click on Append row icon again
 <br>![](/exercises/ex2/images/Maintain%20systems/image-4.png)
 
@@ -53,6 +57,8 @@ After completing these steps you will have...
 
 
 ### Exercise 2.2.2 Import test from predelivered content
+In the following exercise, you can use pre delivered reports to perform validation. Import these reports and the tool uses them to create the test specifications within the project of the selected business area. You can use these test specifications for analyzing and comparing the data during validation process.
+
 1. Click on back button on maintain systems screen
 <br>![](/exercises/ex2/images/Pre-delivered%20content/image-8.png)
 
@@ -69,23 +75,37 @@ After completing these steps you will have...
 
 
 ### Exercise 2.2.2 Maintain test specification
+In this exercise, you will define the input parameters for each report. The input parameters are – Split, Conditions and Variant. These parameters will be considered for data extraction.
+
+> Note: When a report is imported from test specification, the tool specifies certain split and conditions for each report. These parameters can be modified as per the scope.
+
 1. Click on back button and double click on Define Test Specification
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-0.png)
 
+> Input parameter: Split <br>
+The split represents the granularity at which the data is extracted and compared. The granularity of each split is represented as Workitem and Workitem description specifies the value for it. If the company is specified as split condition, then the results are extracted and compared at the granularity of company.
 2. Double click on report name and go to split tab. 
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-1.png)
 
+>Input parameter: Condition <br>
+The conditions represent se38 parameters which are passed with report execution to extract data. Multiple distinct conditions can be maintained for each system.
 3. Go to Condition tab. Use the drop down to switch system and check the conditions for each system (ECC and S4).
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-2.png)
 
+>Input parameter: Variant <br>
+The variant represents the variant maintained for each report per system. For this project, no variant is maintained.
 4. Go to variant tab.
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-3.png)
+
+>Similarly, input parameters can be checked for RFDEPL00 report by double clicking on the report name
 
 5. Click on save.
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-4.png)
 
 
 ### Exercise 2.2.3 Maintain project global data
+In the previous step, we maintained split parameters for each report. In this step, we will maintain the values for each split. The Project Global Data screen allows you to capture the data, which is common across all the test specifications. By doing so, you can avoid maintaining the same data several times, for example, company, profit center, cost center, and so on. Setting up the project global data is necessary. These are the data that is relevant for the entire project. You can use it to define the split conditions in the test specifications.
+
 1. Click on back button and double click on Project Global Data
 <br>![](/exercises/ex2/images/Project%20global%20data/image-0.png)
 
@@ -114,7 +134,12 @@ After completing these steps you will have...
 <br>![](/exercises/ex2/images/Project%20global%20data/image-6.png)
 
 ## Exercise 2.3 Perform Simulation (OPTIONAL)
-...
+In the following exercise you will learn how simulate the execution of tests. Purpose of the simulation is to provide you the ability to check if the extraction of data is successful with the provided input. This is more relevant to check for the memory and runtime requirements. Simulation results provide information about artifacts, such as:
+<li>If the simulation was successful, then how many records were selected, and what is the memory size.
+<li>If the simulation was unsuccessful, then the same is indicated by the status.
+<li>In the Logs tab, the logs of the execution is shown. If the simulation is unsuccessful, the log provides appropriate message.
+
+
 ### Exercise 2.3.1 Execute simulation
 1. Click on back button and double click on Define Test Specification step.
 <br>![](/exercises/ex2/images/Simulation/image-0.png)
@@ -122,24 +147,33 @@ After completing these steps you will have...
 2. Select both reports and click on Simulate button. (To select both reports, click on select all button on the alv) 
 <br>![](/exercises/ex2/images/Simulation/image-1.png)
 
+>The execution runs in the background. The simulation status changes to in progress.
 3. Click on refresh button to check the simulation status. Make sure you select both reports and click on refresh button to refresh simulation for reports at once.
 <br>![](/exercises/ex2/images/Simulation/image-2.png)
 
 4. Repeat step 4 until the Simulation status is completed (checked flag).
 <br>![](/exercises/ex2/images/Simulation/image-3.png)
 
+>The link is enabled in the Simulation Result column to check the results.
+
 ### Exercise 2.3.2 Check simulation results
 1. Click on the Simulation result link corresponding to RFBILA00 report.
 <br>![](/exercises/ex2/images/Simulation/image-4.png)
 
+>The result tab shows status of simulation along with number of records and size each workitem has consumed. (Workitem: If split parameters are provided based on the inputs from the previous screen, the tool derives work items.)
 2. Check the Result.
 <br>![](/exercises/ex2/images/Simulation/image-5.png)
 
+>The Logs tab shows the background activities during execution. Also, if simulation fails, the reason can be checked in logs.
 3. Check Logs
 <br>![](/exercises/ex2/images/Simulation/image-6.png)
 
+>Similarly, simulation data can be checked for RFDEPL00 report.
+
+
 ## Exercise 2.4 Extraction in Source system
-...
+In the following exercise you will learn how extract data in source system. The extraction screen provides a list of all the reports or transactions configured in the Define Test Specification screen. The data for such reports can be extracted from this screen. The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
+
 ### Exercise 2.4.1 Execute extraction
 1. Click on back button and double click on Execute Data Extraction step.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-0.png)
@@ -153,24 +187,36 @@ After completing these steps you will have...
 4. Select RFBILA00>ECC and RFDEPL00>ECC.  And click on Run Selected button. (Press Ctrl and select both nodes)
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-3.png)
 
+>The extraction is triggered in background. The status changes to in -progress.
 5. Click on Refresh to fetch the latest status. Once the execution status is completed (green flag), check the details on the right side.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-4.png)
 
 ### Exercise 2.4.2 Check source extraction results
+>Overview Tab shows the execution details, i.e, status, runtime, number of records etc.
 1. Check Overview tab
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-5.png)
 
+>XML Test specification tab displays the test specification(split, conditions, variants) in XML format.
 2. Click on XML Test Specification.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-6.png)
 
+>Workitems tab displays the number of records per workitem. If split parameters are provided based on the inputs from the test specification screen, the tool derives work items.
 3. Click on Worklist Items tab.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-7.png)
 
-4. Click on Result Data tab. It shows the actual extracted data
+>Log tab shows the execution process happening in the background.
+4. Cick on Log tab.
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-9.png)
+
+>Result Data tab displays actual extracted data in tabular format.
+4. Click on Result Data tab.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-8.png)
 
+***************************************** **CONVERSION** ************************************************
+
 ## Exercise 2.5 Extraction in Target system
-...
+The extraction screen provides a list of all the reports or transactions configured in the Define Test Specification screen. The data for such reports can be extracted from this screen. The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
+
 ### Exercise 2.5.1 Execute extraction
 1. Login to S4 system and launch dtv.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-0.png)
@@ -187,6 +233,8 @@ After completing these steps you will have...
 5. Select S4HANA node of both reports and click on Run Selected.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-4.png)
 
+>The extraction runs in the background. The status changes to in-progress.
+
 6. Click on refresh button until status changes to completed.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-5.png)
 
@@ -197,8 +245,11 @@ After completing these steps you will have...
 2. Check extraction details and results on different tabs.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-7.png)
 
+>Similarly, the extraction results for RFDEPL00 report can be checked.
+
 ## Exercise 2.6 Execute Evaluation
-...
+This screen provides the list of all the reports or transactions configured in the previous screens in a tree structure. Data evaluation is performed from the result sets obtained from source and target release. Based on this result set, the tool evaluates the data and depicts the results in the Equals, Difference, Missing in Target, Unexpected in Target formats. The reports are shown in a tree structure with the hierarchy as Business Area > Business Group > Type > Report Name. Evaluation of the reports is performed only on the leaf nodes.
+
 ### Exercise 2.6.1 Execute evaluation
 1. Go to steps screen and double click on Evaluate Data step.
 <br>![](/exercises/ex2/images/Evaluation/image-0.png)
@@ -212,23 +263,33 @@ After completing these steps you will have...
 4. Select both RFBILA00 and RFDEPL00 report and click on Run Selected.
 <br>![](/exercises/ex2/images/Evaluation/image-3.png)
 
+>The evaluation is triggered in the background. The status is changed to in-progress.
+
 5. Click on refresh until the evaluation status changed to completed (green flag) 
 <br>![](/exercises/ex2/images/Evaluation/image-4.png)
 
 ### Exercise 2.6.2 Check evaluation results
+
+>The overview tab shows extraction status of both systems. Only when both are completed evaluation can be performed. It displays evaluation execution details.
 1. Check Overview tab.
 <br>![](/exercises/ex2/images/Evaluation/image-5.png)
 
+>Worklist Items tab displays evaluation count for each workitem categorised in different parameters.
 2. Click on Worklist Items. 
 <br>![](/exercises/ex2/images/Evaluation/image-6.png)
 
+>Result tab displays entire evaluated data categorised in different parameters. Actual evaluated data can be checked.
 3. Click on Result tab. Click on Equal>Data.
 <br>![](/exercises/ex2/images/Evaluation/image-7.png)
 
 4. Check the evaluation results
 <br>![](/exercises/ex2/images/Evaluation/image-8.png)
 
+>Similarly, you can check results for RFDEPL00 report by double click on the report.
+
 ### Exercise 2.6.3 Sign off
+The sign-off status is provided in the tool, for user to indicate if the results of evaluation are good enough for actual sign-off of the validation. 
+
 1. Click on Sign Off>Approve from the menu bar.
 <br>![](/exercises/ex2/images/Evaluation/image-9.png)
 
@@ -237,6 +298,8 @@ After completing these steps you will have...
 
 
 ## Exercise 2.7 Check Summary
+In the following exercise you can check summary of the overall project and its status.
+
 1. Double click on Summary step.
 <br>![](/exercises/ex2/images/Summary/image-0.png)
 
