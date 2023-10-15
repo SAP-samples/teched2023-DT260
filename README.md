@@ -8,11 +8,14 @@ This repository contains the material for the SAP TechEd 2023 session called DT2
 
 ## Overview
 
-This session introduces attendees to plan and validate their journey to SAP S/4HANA> In this session, the attendees will get a hands-on experience of using maintenance planner for planning the target SAP S/4HANA release. Thereafter, this session introduces the data transition validation tool for validating the business data post conversion.
+This session introduces attendees to plan and validate their journey to SAP S/4HANA. In this session, the attendees will get a hands-on experience of using maintenance planner for planning the target SAP S/4HANA release. Thereafter, this session introduces the data transition validation tool for validating the business data post conversion.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are access to the following applications or systems:
+
+<li> Access to maintenance planner using an S-user
+<li> SAP S/4HANA system
 
 ## Exercises
 
@@ -31,15 +34,9 @@ Following are the different exercises offered as a part of this hands-on session
   - [Exercise 2.5 - Extraction in Target System](exercises/ex2#exercise-25-extraction-in-target-system)
   - [Exercise 2.6 - Execute Evaluation](exercises/ex2#exercise-26-execute-evaluation)
   - [Exercise 2.7 - Check Summary](exercises/ex2#exercise-27-check-summary)
-
-  
 - [Exercise 3 - Identify critical SAP Notes recommendation for your SAP S/4HANA systems](exercises/ex3/)
   - [Exercise 3.1 - Login to Maintenance Planner](exercises/ex3#exercise-31-sub-exercise-1-description)
   - [Exercise 3.2 - Identify critical SAP Notes recommendation](exercises/ex3#exercise-32-sub-exercise-2-description)
-
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
 
 **IMPORTANT**
 
