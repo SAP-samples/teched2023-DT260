@@ -183,4 +183,4 @@ Continue as described below.
 
 You've now been able to generate a stack XML which can be used by Software Update Manager for converting the system. In this hands-on workshop, execution of Software Update Manager is not in scope.
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to - [Exercise 2 - Validate your business data using Data Transition Validation tool](../ex2/README.md)
