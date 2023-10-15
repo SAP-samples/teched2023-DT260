@@ -11,7 +11,7 @@ After completing these steps you will have logged into maintenance planner for g
 2. Enter the user details provided by speakers to login to the maintenance planner.
 
 3. You should be able to see the following home page after logging in:
-   > ![](/exercises/ex1/images/mp_027.png)
+   <br>![](/exercises/ex1/images/mp_027.png)
 
 ## Exercise 1.2 Plan for SAP S/4HANA conversion
 
