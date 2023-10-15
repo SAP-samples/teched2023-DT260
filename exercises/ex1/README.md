@@ -23,23 +23,23 @@ Continue as described below.
 
    Click on Plan for SAP S/4HANA tile.
 
-   > <i>![](/exercises/ex1/images/mp_001.png)</i>
+   <br>![](/exercises/ex1/images/mp_001.png)</i>
 
 2. <b> Overview </b>
 
    Click on the option "Manual Conversion" under "Convert Existing SAP ERP System to SAP S/4HANA System". Read the contents briefly to understand the pre-requisites, tools and steps involved in the system conversion process. Click on "Next" once done.
 
-   > <i>![](/exercises/ex1/images/mp_002.png)</i>
+   <br>![](/exercises/ex1/images/mp_002.png)</i>
 
 3. <b> Backend System </b>
 
    Enter the system ID "S2Y[ABAP]" in the value help. From the filtered set of values, select "S2Y[ABAP]".
 
-   > <i>![](/exercises/ex1/images/mp_003.png)</i>
+   <br>![](/exercises/ex1/images/mp_003.png)</i>
 
    On selecting the same, thecurrent SAP ERP product version present on the system shows up in the "Current Version" field. Make the selections as shown in the screenshot below for "Target Version", "Target Stack". The "Target Product Instances" will be pre-selected.
 
-   > <i>![Target selections](/exercises/ex1/images/mp_004.png)</i>
+   <br>![Target selections](/exercises/ex1/images/mp_004.png)</i>
 
    Below is a small description of the fields:
 
@@ -55,11 +55,11 @@ Continue as described below.
 
    SAP Fiori can be deployed in your system landscape on an existing frontend server, new frontend server, or together with SAP S/4HANA backend. These options are provided by maintenance planner as shown in the screenshot below.
 
-   > <i>![SAP Fiori](/exercises/ex1/images/mp_005.png)</i>
+   <br>![SAP Fiori](/exercises/ex1/images/mp_005.png)</i>
 
    In this hands-on exercise, focus is on planning an embedded deployment of SAP Fiori software. Do the below selections in the maintenance planner and click on Next button.
 
-   > <i>![SAP Fiori selections](/exercises/ex1/images/mp_006.png)</i>
+   <br>![SAP Fiori selections](/exercises/ex1/images/mp_006.png)</i>
 
 5. <b> Summary </b>
 
@@ -73,11 +73,11 @@ Continue as described below.
 
    Once you have gone through the details in this step, click on "Continue Planning" to move to the next guided procedure used for generating the stack XML.
 
-   > <i>![SAP S/4HANA add-ons and business function check summary](/exercises/ex1/images/mp_007.png)</i>
+   <br>![SAP S/4HANA add-ons and business function check summary](/exercises/ex1/images/mp_007.png)</i>
 
    In case there are any warnings, then you will get an additional confirmation step as follows. Click on Continue:
 
-   > <i>![Warning](/exercises/ex1/images/mp_008.png)</i>
+   <br>![Warning](/exercises/ex1/images/mp_008.png)</i>
 
 ## Exercise 1.3 Generate stack XML using the planning guided procedure
 
@@ -87,7 +87,7 @@ Continue as described below.
 
    The target will have been applied based on the SAP product model, and the selections done in the previous steps. Review the selections and click on "Next" to continue.
 
-   > <i>![Define Change](/exercises/ex1/images/mp_009.png)</i>
+   <br>![Define Change](/exercises/ex1/images/mp_009.png)</i>
 
 2. <b> Select Files: Select OS/DB dependent files </b>
 
@@ -100,17 +100,17 @@ Continue as described below.
 
    Click on the expand arrow to see the list of selectable software.
 
-   > <i>![Select OS/DB files](/exercises/ex1/images/mp_010.png)</i>
+   <br>![Select OS/DB files](/exercises/ex1/images/mp_010.png)</i>
 
    Select the required checkbox to select the child entities, as shown below.
 
-   > <i>![Select OS/DB files](/exercises/ex1/images/mp_011.png)</i>
+   <br>![Select OS/DB files](/exercises/ex1/images/mp_011.png)</i>
 
    Click on "Confirm Selection".
 
    A warning pop-up comes up to outline the dependencies between SAP Kernel and SAP IGS. In the case of this hands-on session, this can be ignored and you may click on "Continue" to calculate the delta packages.
 
-   > <i>![Select OS/DB files](/exercises/ex1/images/mp_012.png)</i>
+   <br>![Select OS/DB files](/exercises/ex1/images/mp_012.png)</i>
 
 3. <b> Select Files: Select Stack Dependent and Independent files </b>
 
@@ -125,59 +125,59 @@ Continue as described below.
 
    You may explore these in this step by collapsing/expanding the relevant tree nodes.
 
-   > <i>![Select Stack files](/exercises/ex1/images/mp_013.png)</i>
+   <br>![Select Stack files](/exercises/ex1/images/mp_013.png)</i>
 
-   > <i>![Select Stack files](/exercises/ex1/images/mp_014.png)</i>
+   <br>![Select Stack files](/exercises/ex1/images/mp_014.png)</i>
 
    You may want to include additional HR packages into the plan, for which you can use the "Add HR Packages" button.
 
-   > <i>![Select Stack files](/exercises/ex1/images/mp_015.png)</i>
+   <br>![Select Stack files](/exercises/ex1/images/mp_015.png)</i>
 
    This opens a pop-up with the list of additional HR packages which get included in the plan as per your selections.
 
-   > <i>![Select Stack files](/exercises/ex1/images/mp_016.png)</i>
+   <br>![Select Stack files](/exercises/ex1/images/mp_016.png)</i>
 
    Click on Next to continue to Download Files step.
 
-   > <i>![Select Stack files](/exercises/ex1/images/mp_017.png)</i>
+   <br>![Select Stack files](/exercises/ex1/images/mp_017.png)</i>
 
 4. <b> Download Files </b>
 
    In this step, you see the list of all the files which have been collected by maintenance planner for the plan to be implemented. In addition, you can download stack XML, push the archives to download basket and also download additional files for traceability.
 
-   > <i>![Download Stack XML](/exercises/ex1/images/mp_018.png)</i>
+   <br>![Download Stack XML](/exercises/ex1/images/mp_018.png)</i>
 
    Stack XML file contents:
 
-   > <i>![Stack XML](/exercises/ex1/images/mp_019.png)</i>
+   <br>![Stack XML](/exercises/ex1/images/mp_019.png)</i>
 
-   > <i>![Push to Download Basket](/exercises/ex1/images/mp_020.png)</i>
+   <br>![Push to Download Basket](/exercises/ex1/images/mp_020.png)</i>
 
    Download plan PDF:
 
-   > <i>![Download plan PDF](/exercises/ex1/images/mp_021.png)</i>
+   <br>![Download plan PDF](/exercises/ex1/images/mp_021.png)</i>
 
-   > <i>![View plan PDF](/exercises/ex1/images/mp_022.png)</i>
+   <br>![View plan PDF](/exercises/ex1/images/mp_022.png)</i>
 
    Export planned files metadata into an excel:
 
-   > <i>![Export to Microsoft Excel](/exercises/ex1/images/mp_023.png)</i>
+   <br>![Export to Microsoft Excel](/exercises/ex1/images/mp_023.png)</i>
 
    View contents:
 
-   > <i>![View contents](/exercises/ex1/images/mp_024.png)</i>
+   <br>![View contents](/exercises/ex1/images/mp_024.png)</i>
 
    Click on Next to go to Complete step.
 
-   > <i>![Next](/exercises/ex1/images/mp_025.png)</i>
+   <br>![Next](/exercises/ex1/images/mp_025.png)</i>
 
 5. <b> Complete </b>
 
    In this step, you can save the plan and see the contents of the plan PDF. Click on the home icon to go to the home page of maintenance planner.
 
-   > <i>![Save plan](/exercises/ex1/images/mp_026.png)</i>
+   <br>![Save plan](/exercises/ex1/images/mp_026.png)</i>
 
-   > <i>![Home page](/exercises/ex1/images/mp_027.png)</i>
+   <br>![Home page](/exercises/ex1/images/mp_027.png)</i>
 
 ## Summary
 
