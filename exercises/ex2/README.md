@@ -252,9 +252,11 @@ The extraction screen provides a list of all the reports or transactions configu
 
 ### Exercise 2.5.2 Check source extraction results
 1. Double click on RFBILA00>S4HANA. The right side of the screen is loaded.
+![Alt text](image.png)
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-6.png)
 
 2. Check extraction details and results on different tabs.
+![Alt text](image-1.png)
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-7.png)
 
 >Similarly, the extraction results for RFDEPL00 report can be checked.
