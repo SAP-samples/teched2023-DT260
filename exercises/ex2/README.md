@@ -225,12 +225,16 @@ In the following exercise you will learn how extract data in source system. The 
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-8.png)
 
 ***************************************** **CONVERSION** ************************************************
+## Exercise 2.5 System conversion
 
-## Exercise 2.5 Extraction in Target system
+1. Login to the S/4 system
+<br>![](/exercises/ex2/images/System%20Conversion/image-0.png)
+
+## Exercise 2.6 Extraction in Target system
 The extraction screen provides a list of all the reports or transactions configured in the Define Test Specification screen. The data for such reports can be extracted from this screen. The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
 
-### Exercise 2.5.1 Execute extraction
-1. Login to S4 system and launch dtv.
+### Exercise 2.6.1 Execute extraction
+1. Launch dtv.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-0.png)
 
 2. Enter same project name and click on display.
@@ -250,7 +254,7 @@ The extraction screen provides a list of all the reports or transactions configu
 6. Click on refresh button until status changes to completed.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-5.png)
 
-### Exercise 2.5.2 Check source extraction results
+### Exercise 2.6.2 Check source extraction results
 1. Double click on RFBILA00>S4HANA. The right side of the screen is loaded.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-6.png)
 
@@ -259,10 +263,10 @@ The extraction screen provides a list of all the reports or transactions configu
 
 >Similarly, the extraction results for RFDEPL00 report can be checked.
 
-## Exercise 2.6 Execute Evaluation
+## Exercise 2.7 Execute Evaluation
 This screen provides the list of all the reports or transactions configured in the previous screens in a tree structure. Data evaluation is performed from the result sets obtained from source and target release. Based on this result set, the tool evaluates the data and depicts the results in the Equals, Difference, Missing in Target, Unexpected in Target formats. The reports are shown in a tree structure with the hierarchy as Business Area > Business Group > Type > Report Name. Evaluation of the reports is performed only on the leaf nodes.
 
-### Exercise 2.6.1 Execute evaluation
+### Exercise 2.7.1 Execute evaluation
 1. Go to steps screen and double click on Evaluate Data step.
 <br>![](/exercises/ex2/images/Evaluation/image-0.png)
 
@@ -280,7 +284,7 @@ This screen provides the list of all the reports or transactions configured in t
 5. Click on refresh until the evaluation status changed to completed (green flag) 
 <br>![](/exercises/ex2/images/Evaluation/image-4.png)
 
-### Exercise 2.6.2 Check evaluation results
+### Exercise 2.7.2 Check evaluation results
 
 >The overview tab shows extraction status of both systems. Only when both are completed evaluation can be performed. It displays evaluation execution details.
 1. Check Overview tab.
@@ -300,7 +304,7 @@ This screen provides the list of all the reports or transactions configured in t
 
 >Similarly, you can check results for RFDEPL00 report by double click on the report.
 
-### Exercise 2.6.3 Sign off
+### Exercise 2.7.3 Sign off
 The sign-off status is provided in the tool, for user to indicate if the results of evaluation are good enough for actual sign-off of the validation. 
 
 1. Click on Sign Off>Approve from the menu bar.
@@ -310,7 +314,7 @@ The sign-off status is provided in the tool, for user to indicate if the results
 <br>![](/exercises/ex2/images/Evaluation/image-10.png)
 
 
-## Exercise 2.7 Check Summary
+## Exercise 2.8 Check Summary
 In the following exercise you can check summary of the overall project and its status.
 
 1. Double click on Summary step.
