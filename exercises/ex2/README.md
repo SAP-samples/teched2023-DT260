@@ -116,7 +116,7 @@ The variant represents the variant maintained for each report per system. For th
 
 
 ### Exercise 2.2.3 Maintain project global data
-In the previous step, we maintained split parameters for each report. In this step, we will maintain the values for each split. The Project Global Data screen allows you to capture the data, which is common across all the test specifications. By doing so, you can avoid maintaining the same data several times, for example, company, profit center, cost center, and so on. Setting up the project global data is necessary. These are the data that is relevant for the entire project. You can use it to define the split conditions in the test specifications.
+In the previous step, we maintained split parameters for each report. In this step, we will maintain the values for each split. The Project Global Data screen allows you to capture the data, which is common across all the test specifications. By doing so, you can avoid maintaining the same data several times, for example, company, profit center, cost center, and so on. Setting up the project global data is necessary.  You can use it to define the split conditions in the test specifications.
 
 1. Click on back button and double click on Project Global Data
 <br>![](/exercises/ex2/images/Project%20global%20data/image-0.png)
@@ -128,9 +128,9 @@ In the previous step, we maintained split parameters for each report. In this st
 <br>![](/exercises/ex2/images/Project%20global%20data/image-2.png)
 
 4. Select from drop down the following values:
-    •	Sign – “Range limit Included”
-    •	Option – “Equals”
-    •	From – “1000”
+   <li> •	Sign – “Range limit Included”
+   <li> •	Option – “Equals”
+   <li> •	From – “1000”
 <br>![](/exercises/ex2/images/Project%20global%20data/image-3.png)
 
 4. Click on Append row button
