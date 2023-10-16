@@ -149,8 +149,9 @@ In the previous step, we maintained split parameters for each report. In this st
 In the following exercise you will learn how simulate the execution of tests. Purpose of the simulation is to provide you the ability to check if the extraction of data is successful with the provided input. This is more relevant when one has to check for the memory and runtime requirements. Simulation results provide information about artifacts, such as:
 <li>If the simulation was successful, then how many records were selected, and what is the memory size.
 <li>If the simulation was unsuccessful, then the same is indicated by the status.
-<li>In the Logs tab, the logs of the execution is shown. If the simulation is unsuccessful, the log provides appropriate message.
+<li>In the Logs tab, the logs of the execution is shown. If the simulation is unsuccessful, the log provides appropriate message. 
 
+<br>
 &#x1F4A1; Note : In the interest of time, it is recommended to skip this Exercise and proceed with Exercise 2.4 . You may revisit this section , once the other sections are completed.
 
 ### Exercise 2.3.1 Execute simulation
