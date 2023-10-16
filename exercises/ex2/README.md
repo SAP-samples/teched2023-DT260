@@ -42,7 +42,7 @@ Note : For SAP S/4HANA upgrade process, the source is the current release and th
 1. Double click on step Maintain Sytems.
 <br>![](/exercises/ex2/images/Maintain%20systems/image-0.png)
 
-> Maintain source system
+** Maintain source system **
 2. Click on Append Row icon.
 <br>![](/exercises/ex2/images/Maintain%20systems/image-1.png)
 
