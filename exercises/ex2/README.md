@@ -35,7 +35,8 @@ You have already been assigned a user with needed authorization to execute DTV t
 Maintain the tests for validation in your DTV project.
 
 ### Exercise 2.2.1 Maintain systems
-In this exercise, systems are specified that you want to participate in data validation. Usually, these systems are SAP ECC as source and SAP S/4 HANA as target for conversion process. For SAP S/4HANA upgrade process, the source is the current release and the target is the release that you want to upgrade to. </i>
+In this exercise, systems are specified that shall participate in data validation. Usually, these systems are SAP ECC as source and SAP S/4HANA as target for conversion process. 
+Note : For SAP S/4HANA upgrade process, the source is the current release and the target is the release that you want to upgrade to. </i>
 
 1. Double click on step Maintain Sytems.
 <br>![](/exercises/ex2/images/Maintain%20systems/image-0.png)
