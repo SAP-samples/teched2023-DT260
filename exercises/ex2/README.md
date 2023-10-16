@@ -127,19 +127,19 @@ In the previous step, we maintained split parameters for each report. In this st
 3. Click on Append row in the item table
 <br>![](/exercises/ex2/images/Project%20global%20data/image-2.png)
 
-4. Select from drop down the following values:
-    •	Sign – “Range limit Included”
-    •	Option – “Equals”
-    •	From – “1000”
+4. Select from drop down the following values: <br>
+    •	Sign – “Range limit Included” <br>
+    •	Option – “Equals” <br>
+    •	From – “1000” <br>
 <br>![](/exercises/ex2/images/Project%20global%20data/image-3.png)
 
 4. Click on Append row button
 <br>![](/exercises/ex2/images/Project%20global%20data/image-4.png)
 
-5. Select from drop down the following values:
-    •	Sign – “Range limit Included”
-    •	Option – “Equals”
-    •	From – “2000”
+5. Select from drop down the following values: <br>
+    •	Sign – “Range limit Included” <br>
+    •	Option – “Equals” <br>
+    •	From – “2000” <br>
 <br>![](/exercises/ex2/images/Project%20global%20data/image-5.png)
 
 6. Click on save button.
