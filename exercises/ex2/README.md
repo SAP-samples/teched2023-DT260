@@ -231,8 +231,8 @@ In the following exercise you will learn how extract data in source system. The 
 <br>![](/exercises/ex2/images/System%20Conversion/image-0.png)
 
 ## Exercise 2.6 Extraction in Target system
-The extraction screen provides a list of all the reports or transactions configured in the Define Test Specification screen. The data for such reports can be extracted from this screen. The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
-
+The extraction screen provides a list of all the reports or transactions configured in the project. The data for such reports can be extracted from this screen. The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
+When extraction is performed , the reports are executed in the background and the output of the reports are saved in the tool. 
 ### Exercise 2.6.1 Execute extraction
 1. Launch dtv.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-0.png)
@@ -264,7 +264,8 @@ The extraction screen provides a list of all the reports or transactions configu
 >Similarly, the extraction results for RFDEPL00 report can be checked.
 
 ## Exercise 2.7 Execute Evaluation
-This screen provides the list of all the reports or transactions configured in the previous screens in a tree structure. Data evaluation is performed from the result sets obtained from source and target release. Based on this result set, the tool evaluates the data and depicts the results in the Equals, Difference, Missing in Target, Unexpected in Target formats. The reports are shown in a tree structure with the hierarchy as Business Area > Business Group > Type > Report Name. Evaluation of the reports is performed only on the leaf nodes.
+This screen provides the list of all the reports or transactions configured in the project. Data evaluation is performed from the result sets extracted from source and target release. Based on this result set, the tool compares the data and depicts the results in the Equals, Difference, Missing in Target, Unexpected in Target dimensions. 
+The reports are shown in a tree structure with the hierarchy as Business Area > Business Group > Type > Report Name. Evaluation of the reports is performed only on the leaf nodes.
 
 ### Exercise 2.7.1 Execute evaluation
 1. Go to steps screen and double click on Evaluate Data step.
@@ -286,16 +287,16 @@ This screen provides the list of all the reports or transactions configured in t
 
 ### Exercise 2.7.2 Check evaluation results
 
->The overview tab shows extraction status of both systems. Only when both are completed evaluation can be performed. It displays evaluation execution details.
+>The overview tab shows extraction status of both systems. Only when both systems extraction is completed, evaluation can be performed. It displays evaluation execution details.
 1. Check Overview tab.
 <br>![](/exercises/ex2/images/Evaluation/image-5.png)
 
->Worklist Items tab displays evaluation count for each workitem categorised in different parameters.
+>Worklist Items tab displays evaluation count for each workitem categorised in different dimensions.
 2. Click on Worklist Items.
 
 <br>![](/exercises/ex2/images/Evaluation/image-6.png)
 
->Result tab displays entire evaluated data categorised in different parameters. Actual evaluated data can be checked.
+>Result tab displays entire evaluated data categorised in different dimensions. Actual evaluated data can be checked by clicking on the data column.
 3. Click on Result tab. Click on Equal>Data.
 <br>![](/exercises/ex2/images/Evaluation/image-7.png)
 
@@ -313,6 +314,6 @@ In the following exercise you can check summary of the overall project and its s
 2.	Check summary of entire project.
 <br>![](/exercises/ex2/images/Summary/image-1.png)
 
-You've now ...
+You've now sucessfully performed data validation using DTV tool. 
 
 Continue to - [Exercise 3 - Identify critical SAP Notes recommendation for your SAP S/4HANA systems](../ex3/README.md)
