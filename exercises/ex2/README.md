@@ -68,7 +68,7 @@ Note : For SAP S/4HANA upgrade process, the source is the current release and th
 
 
 ### Exercise 2.2.2 Import test from predelivered content
-In this exercise, you will learn to import the pre delivered set of reports from SAP to create the test specifications for validation.  You can use these test specifications later for analyzing and comparing the data during validation process.
+In this exercise, you will learn to import the pre delivered set of reports from SAP to create the test specifications. You can use these test specifications later for analyzing and comparing the data during validation process.
 
 1. Click on back button on maintain systems screen
 <br>![](/exercises/ex2/images/Pre-delivered%20content/image-8.png)
@@ -88,13 +88,14 @@ In this exercise, you will learn to import the pre delivered set of reports from
 ### Exercise 2.2.2 Maintain test specification
 In this exercise, you will define the input parameters for each report. The input parameters are – Split, Conditions and Variant. These parameters will be considered for data extraction.
 
-> Note: When a report is imported from test specification, the tool specifies certain split and conditions for each report. These parameters can be modified as per the scope.
+> Note: When a report is imported from pre-delivered content, the tool suggests certain split and conditions for each report. These parameters can be modified as per the scope.
 
 1. Click on back button and double click on Define Test Specification
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-0.png)
 
 > Input parameter: Split <br>
-The split represents the granularity at which the data is extracted and compared. The granularity of each split is represented as Workitem and Workitem description specifies the value for it. If the company is specified as split condition, then the results are extracted and compared at the granularity of company.
+The split represents the granularity at which the data is extracted and compared. The granularity of each split is represented as Workitem and Workitem description specifies the value for it.
+> For Example: If the company is specified as split condition, then the results are extracted and compared at the granularity of company.
 2. Double click on report name and go to split tab. 
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-1.png)
 
