@@ -229,7 +229,6 @@ The reports are shown in a tree structure with the hierarchy as Business Area > 
 4. Click on Result Data tab.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-8.png)
 
-***************************************** **CONVERSION** ************************************************
 ## Exercise 2.5 System conversion
 
 &#x1F4A1; The source system is now handed over for System Conversion. Once the Sytem conversion is complete the source ECC system is converted to a target SAP S/4HANA system. 
