@@ -100,7 +100,7 @@ The split represents the granularity at which the data is extracted and compared
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-1.png)
 
 >Input parameter: Condition <br>
-The conditions represent se38 parameters which are passed with report execution to extract data. Multiple distinct conditions can be maintained for each system.
+The conditions represent selection parameters which are to be passed for report execution to extract data. Multiple distinct conditions can be maintained for each system.
 3. Go to Condition tab. Use the drop down to switch system and check the conditions for each system (ECC and S4).
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-2.png)
 
@@ -187,6 +187,8 @@ In the following exercise you will learn how simulate the execution of tests. Pu
 ## Exercise 2.4 Extraction in Source system
 In the following exercise you will learn how extract data in source system. The extraction screen provides a list of all the reports or transactions configured in the Project. The data for such reports can be extracted from this screen. 
 The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
+
+&#x1F4A1; Note : RFDEPLOO report has higher volumes of data and hence it might take slightly more time to finish extraction. This is exepected due to concurrent usage of systems in this hands-on kind of enviromnment. 
 
 ### Exercise 2.4.1 Execute extraction
 1. Click on back button and double click on Execute Data Extraction step.
