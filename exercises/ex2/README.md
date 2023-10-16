@@ -95,12 +95,12 @@ In this exercise, you will define the input parameters for each report. The inpu
 
 > Input parameter: Split <br>
 The split represents the granularity at which the data is extracted and compared. The granularity of each split is represented as Workitem and Workitem description specifies the value for it.
-> For Example: If the company is specified as split condition, then the results are extracted and compared at the granularity of company.
+> <br> For Example: If the company is specified as split condition, then the results are extracted and compared at the granularity of company.
 2. Double click on report name and go to split tab. 
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-1.png)
 
 >Input parameter: Condition <br>
-The conditions represent se38 parameters which are passed with report execution to extract data. Multiple distinct conditions can be maintained for each system.
+The conditions represent selection parameters which are to be passed for report execution to extract data. Multiple distinct conditions can be maintained for each system.
 3. Go to Condition tab. Use the drop down to switch system and check the conditions for each system (ECC and S4).
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-2.png)
 
@@ -116,7 +116,7 @@ The variant represents the variant maintained for each report per system. For th
 
 
 ### Exercise 2.2.3 Maintain project global data
-In the previous step, we maintained split parameters for each report. In this step, we will maintain the values for each split. The Project Global Data screen allows you to capture the data, which is common across all the test specifications. By doing so, you can avoid maintaining the same data several times, for example, company, profit center, cost center, and so on. Setting up the project global data is necessary. These are the data that is relevant for the entire project. You can use it to define the split conditions in the test specifications.
+In the previous step, we maintained split parameters for each report. In this step, we will maintain the values for each split. The Project Global Data screen allows you to capture the data, which is common across all the test specifications. By doing so, you can avoid maintaining the same data several times, for example, company, profit center, cost center, and so on. Setting up the project global data is necessary.  You can use it to define the split conditions in the test specifications.
 
 1. Click on back button and double click on Project Global Data
 <br>![](/exercises/ex2/images/Project%20global%20data/image-0.png)
@@ -146,17 +146,18 @@ In the previous step, we maintained split parameters for each report. In this st
 <br>![](/exercises/ex2/images/Project%20global%20data/image-6.png)
 
 ## Exercise 2.3 Perform Simulation (OPTIONAL)
-In the following exercise you will learn how simulate the execution of tests. Purpose of the simulation is to provide you the ability to check if the extraction of data is successful with the provided input. This is more relevant to check for the memory and runtime requirements. Simulation results provide information about artifacts, such as:
+In the following exercise you will learn how simulate the execution of tests. Purpose of the simulation is to provide you the ability to check if the extraction of data is successful with the provided input. This is more relevant when one has to check for the memory and runtime requirements. Simulation results provide information about artifacts, such as:
 <li>If the simulation was successful, then how many records were selected, and what is the memory size.
 <li>If the simulation was unsuccessful, then the same is indicated by the status.
 <li>In the Logs tab, the logs of the execution is shown. If the simulation is unsuccessful, the log provides appropriate message.
 
+&#x1F4A1; Note : In the interest of time, it is recommended to skip this Exercise and proceed with Exercise 2.4 . You may revisit this section , once the other sections are completed.
 
 ### Exercise 2.3.1 Execute simulation
 1. Click on back button and double click on Define Test Specification step.
 <br>![](/exercises/ex2/images/Simulation/image-0.png)
 
-2. Select both reports and click on Simulate button. (To select both reports, click on select all button on the alv) 
+2. Select both reports and click on Simulate button. (To select both reports, click on select all button on the ALV List) 
 <br>![](/exercises/ex2/images/Simulation/image-1.png)
 
 >The execution runs in the background. The simulation status changes to in progress.
@@ -176,7 +177,7 @@ In the following exercise you will learn how simulate the execution of tests. Pu
 2. Check the Result.
 <br>![](/exercises/ex2/images/Simulation/image-5.png)
 
->The Logs tab shows the background activities during execution. Also, if simulation fails, the reason can be checked in logs.
+>The Logs tab shows the execution log. Also, if simulation fails, the reason can be checked in logs.
 3. Check Logs
 <br>![](/exercises/ex2/images/Simulation/image-6.png)
 
@@ -184,7 +185,10 @@ In the following exercise you will learn how simulate the execution of tests. Pu
 
 
 ## Exercise 2.4 Extraction in Source system
-In the following exercise you will learn how extract data in source system. The extraction screen provides a list of all the reports or transactions configured in the Define Test Specification screen. The data for such reports can be extracted from this screen. The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
+In the following exercise you will learn how extract data in source system. The extraction screen provides a list of all the reports or transactions configured in the Project. The data for such reports can be extracted from this screen. 
+The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
+
+&#x1F4A1; Note : RFDEPLOO report has higher volumes of data and hence it might take slightly more time to finish extraction. This is exepected due to concurrent usage of systems in this hands-on kind of enviromnment. 
 
 ### Exercise 2.4.1 Execute extraction
 1. Click on back button and double click on Execute Data Extraction step.
@@ -216,7 +220,7 @@ In the following exercise you will learn how extract data in source system. The 
 3. Click on Worklist Items tab.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-7.png)
 
->Log tab shows the execution process happening in the background.
+>Log tab shows the execution log
 4. Cick on Log tab.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-9.png)
 
@@ -227,12 +231,15 @@ In the following exercise you will learn how extract data in source system. The 
 ***************************************** **CONVERSION** ************************************************
 ## Exercise 2.5 System conversion
 
-1. Login to the S/4 system
+&#x1F4A1; The source system is now handed over for System Conversion. Once the Sytem conversion is complete the source ECC system is converted to a target SAP S/4HANA system. 
+We have performed such a conversion and have provided you with a target SAP S/4HANA system. The next set of exercises are to be performed in the target system. 
+
+1. Login to the SAP S/4HANA system
 <br>![](/exercises/ex2/images/System%20Conversion/image-0.png)
 
 ## Exercise 2.6 Extraction in Target system
-The extraction screen provides a list of all the reports or transactions configured in the Define Test Specification screen. The data for such reports can be extracted from this screen. The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
-
+The extraction screen provides a list of all the reports or transactions configured in the project. The data for such reports can be extracted from this screen. The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
+When extraction is performed , the reports are executed in the background and the output of the reports are saved in the tool. 
 ### Exercise 2.6.1 Execute extraction
 1. Launch dtv.
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-0.png)
@@ -264,7 +271,8 @@ The extraction screen provides a list of all the reports or transactions configu
 >Similarly, the extraction results for RFDEPL00 report can be checked.
 
 ## Exercise 2.7 Execute Evaluation
-This screen provides the list of all the reports or transactions configured in the previous screens in a tree structure. Data evaluation is performed from the result sets obtained from source and target release. Based on this result set, the tool evaluates the data and depicts the results in the Equals, Difference, Missing in Target, Unexpected in Target formats. The reports are shown in a tree structure with the hierarchy as Business Area > Business Group > Type > Report Name. Evaluation of the reports is performed only on the leaf nodes.
+This screen provides the list of all the reports or transactions configured in the project. Data evaluation is performed from the result sets extracted from source and target release. Based on this result set, the tool compares the data and depicts the results in the Equals, Difference, Missing in Target, Unexpected in Target dimensions. 
+The reports are shown in a tree structure with the hierarchy as Business Area > Business Group > Type > Report Name. Evaluation of the reports is performed only on the leaf nodes.
 
 ### Exercise 2.7.1 Execute evaluation
 1. Go to steps screen and double click on Evaluate Data step.
@@ -286,16 +294,16 @@ This screen provides the list of all the reports or transactions configured in t
 
 ### Exercise 2.7.2 Check evaluation results
 
->The overview tab shows extraction status of both systems. Only when both are completed evaluation can be performed. It displays evaluation execution details.
+>The overview tab shows extraction status of both systems. Only when both systems extraction is completed, evaluation can be performed. It displays evaluation execution details.
 1. Check Overview tab.
 <br>![](/exercises/ex2/images/Evaluation/image-5.png)
 
->Worklist Items tab displays evaluation count for each workitem categorised in different parameters.
+>Worklist Items tab displays evaluation count for each workitem categorised in different dimensions.
 2. Click on Worklist Items.
 
 <br>![](/exercises/ex2/images/Evaluation/image-6.png)
 
->Result tab displays entire evaluated data categorised in different parameters. Actual evaluated data can be checked.
+>Result tab displays entire evaluated data categorised in different dimensions. Actual evaluated data can be checked by clicking on the data column.
 3. Click on Result tab. Click on Equal>Data.
 <br>![](/exercises/ex2/images/Evaluation/image-7.png)
 
@@ -313,6 +321,6 @@ In the following exercise you can check summary of the overall project and its s
 2.	Check summary of entire project.
 <br>![](/exercises/ex2/images/Summary/image-1.png)
 
-You've now ...
+You've now sucessfully performed data validation using DTV tool. 
 
 Continue to - [Exercise 3 - Identify critical SAP Notes recommendation for your SAP S/4HANA systems](../ex3/README.md)
