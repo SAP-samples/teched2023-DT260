@@ -321,4 +321,4 @@ In the following exercise you can check summary of the overall project and its s
 
 You've now ...
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Identify critical SAP Notes recommendation for your SAP S/4HANA systems](../ex3/README.md)
