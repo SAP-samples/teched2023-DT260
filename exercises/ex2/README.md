@@ -68,7 +68,7 @@ Note : For SAP S/4HANA upgrade process, the source is the current release and th
 
 
 ### Exercise 2.2.2 Import test from predelivered content
-In the following exercise, you can use pre delivered reports to perform validation. Import these reports and the tool uses them to create the test specifications within the project of the selected business area. You can use these test specifications for analyzing and comparing the data during validation process.
+In this exercise, you will learn to import the pre delivered set of reports from SAP to create the test specifications for validation.  You can use these test specifications later for analyzing and comparing the data during validation process.
 
 1. Click on back button on maintain systems screen
 <br>![](/exercises/ex2/images/Pre-delivered%20content/image-8.png)
