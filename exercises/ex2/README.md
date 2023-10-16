@@ -123,24 +123,29 @@ In the previous step, we maintained split parameters for each report. In this st
 <br>![](/exercises/ex2/images/Project%20global%20data/image-1.png)
 
 3. Click on Append row in the item table
+![Alt text](image.png)
 <br>![](/exercises/ex2/images/Project%20global%20data/image-2.png)
 
 4. Select from drop down the following values:
     •	Sign – “Range limit Included”
     •	Option – “Equals”
     •	From – “1000”
+![Alt text](image-1.png)
 <br>![](/exercises/ex2/images/Project%20global%20data/image-3.png)
 
 4. Click on Append row button
+![Alt text](image-2.png)
 <br>![](/exercises/ex2/images/Project%20global%20data/image-4.png)
 
 5. Select from drop down the following values:
     •	Sign – “Range limit Included”
     •	Option – “Equals”
     •	From – “2000”
+![Alt text](image-3.png)
 <br>![](/exercises/ex2/images/Project%20global%20data/image-5.png)
 
 6. Click on save button.
+![Alt text](image-4.png)
 <br>![](/exercises/ex2/images/Project%20global%20data/image-6.png)
 
 ## Exercise 2.3 Perform Simulation (OPTIONAL)
