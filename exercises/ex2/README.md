@@ -151,7 +151,7 @@ In the following exercise you will learn how simulate the execution of tests. Pu
 <li>If the simulation was unsuccessful, then the same is indicated by the status.
 <li>In the Logs tab, the logs of the execution is shown. If the simulation is unsuccessful, the log provides appropriate message.
 
-Note : In the interest of time, it is recommended to skip this Exercise and proceed with Exercise 2.4 . You may revisit this section , once the other sections are completed.
+&#x1F4A1; Note : In the interest of time, it is recommended to skip this Exercise and proceed with Exercise 2.4 . You may revisit this section , once the other sections are completed.
 
 ### Exercise 2.3.1 Execute simulation
 1. Click on back button and double click on Define Test Specification step.
@@ -229,7 +229,7 @@ The reports are shown in a tree structure with the hierarchy as Business Area > 
 ***************************************** **CONVERSION** ************************************************
 ## Exercise 2.5 System conversion
 
-The source system is now handed over for System Conversion. Once the Sytem conversion is complete the source ECC system is converted to a target SAP S/4HANA system. 
+&#x1F4A1; The source system is now handed over for System Conversion. Once the Sytem conversion is complete the source ECC system is converted to a target SAP S/4HANA system. 
 We have performed such a conversion and have provided you with a target SAP S/4HANA system. The next set of exercises are to be performed in the target system. 
 
 1. Login to the SAP S/4HANA system
