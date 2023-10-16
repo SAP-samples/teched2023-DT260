@@ -128,9 +128,9 @@ In the previous step, we maintained split parameters for each report. In this st
 <br>![](/exercises/ex2/images/Project%20global%20data/image-2.png)
 
 4. Select from drop down the following values:
-   <li> •	Sign – “Range limit Included”
-   <li> •	Option – “Equals”
-   <li> •	From – “1000”
+        •	Sign – “Range limit Included”
+        •	Option – “Equals”
+        •	From – “1000”
 <br>![](/exercises/ex2/images/Project%20global%20data/image-3.png)
 
 4. Click on Append row button
