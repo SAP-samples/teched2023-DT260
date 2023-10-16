@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2023 session called DT2
 
 ## Overview
 
-This session introduces attendees to plan and validate their journey to SAP S/4HANA. In this session, the attendees will get a hands-on experience of using maintenance planner for planning the target SAP S/4HANA release. Thereafter, this session introduces the data transition validation tool for validating the business data post conversion.
+This session introduces attendees to plan and validate their journey to SAP S/4HANA. In this session, the attendees will get a hands-on experience of using maintenance planner for planning the target SAP S/4HANA release. Thereafter, this session introduces the data transition validation(DTV) tool for validating the business data post conversion.
 
 ## Requirements
 
@@ -16,6 +16,9 @@ The requirements to follow the exercises in this repository are access to the fo
 
 <li> Access to maintenance planner using an S-user
 <li> SAP S/4HANA system
+<li> SAP ECC system 
+<li> Access to Data Transition Validation Tool 
+
 
 ## Exercises
 
