@@ -1,6 +1,12 @@
 # Exercise 2 - Validate your business data using Data Transition Validation tool
 
-In this exercise, we will create...
+## Before you start
+
+The data transition validation is a tool that allows you to compare business data before and after a system conversion from SAP ECC to SAP S/4HANA. Additionally, you can perform validations during SAP S/4HANA system upgrade. Currently, the scope of the tool is to support validation of system conversion transition scenario or SAP S/4HANA upgrades. The tool uses business reports or transactions as instruments of comparison.
+<br>![](/exercises/ex2/images/Introduction/image-0.png)
+
+In the hands-on session <hands on ID>, you will get to experience the processes involved in the business data validation using DTV tool during the ECC to SAP S/4HANA conversion.  You will get experience of creating a DTV project, Maintaining Test specification, data extraction in source and target and finally performing data evaluation and obtain the comparison results.  
+<br>![](/exercises/ex2/images/Introduction/image-1.png)
 
 ## Exercise 2.1 User and Project setup
 
