@@ -304,16 +304,6 @@ This screen provides the list of all the reports or transactions configured in t
 
 >Similarly, you can check results for RFDEPL00 report by double click on the report.
 
-### Exercise 2.7.3 Sign off
-The sign-off status is provided in the tool, for user to indicate if the results of evaluation are good enough for actual sign-off of the validation. 
-
-1. Click on Sign Off>Approve from the menu bar.
-<br>![](/exercises/ex2/images/Evaluation/image-9.png)
-
-2. Check sign off results in Overview tab.
-<br>![](/exercises/ex2/images/Evaluation/image-10.png)
-
-
 ## Exercise 2.8 Check Summary
 In the following exercise you can check summary of the overall project and its status.
 
