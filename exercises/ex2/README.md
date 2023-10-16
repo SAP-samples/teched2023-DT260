@@ -88,7 +88,7 @@ In this exercise, you will learn to import the pre delivered set of reports from
 ### Exercise 2.2.2 Maintain test specification
 In this exercise, you will define the input parameters for each report. The input parameters are – Split, Conditions and Variant. These parameters will be considered for data extraction.
 
-> Note: When a report is imported from pre-delivered content, the tool suggests certain split and conditions for each report. These parameters can be modified as per the scope.
+&#x1F4A1; Note: When a report is imported from pre-delivered content, the tool suggests certain split and conditions for each report. These parameters can be modified as per the scope.
 
 1. Click on back button and double click on Define Test Specification
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-0.png)
