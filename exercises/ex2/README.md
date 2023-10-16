@@ -9,7 +9,7 @@ In the hands-on session <hands on ID>, you will get to experience the processes 
 <br>![](/exercises/ex2/images/Introduction/image-1.png)
 
 Login to your SAP TechEd system , and open the SAP Launchpad. Use the system named ECC Prior to conversion for the below activity of Project setup , Maintain systems , Import pre-delivered content, Maintain test specificaion and Souce Extraction.
-<br>![](/exercises/ex2/images/Introduction/image-3.png)
+<br>![](/exercises/ex2/images/Introduction/image-2.png)
 
 ## Exercise 2.1 User and Project setup
 
