@@ -252,11 +252,9 @@ The extraction screen provides a list of all the reports or transactions configu
 
 ### Exercise 2.5.2 Check source extraction results
 1. Double click on RFBILA00>S4HANA. The right side of the screen is loaded.
-![Alt text](image.png)
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-6.png)
 
 2. Check extraction details and results on different tabs.
-![Alt text](image-1.png)
 <br>![](/exercises/ex2/images/Extraction%20-%20Target/image-7.png)
 
 >Similarly, the extraction results for RFDEPL00 report can be checked.
@@ -275,21 +273,25 @@ This screen provides the list of all the reports or transactions configured in t
 <br>![](/exercises/ex2/images/Evaluation/image-2.png)
 
 4. Select both RFBILA00 and RFDEPL00 report and click on Run Selected.
+![Alt text](image.png)
 <br>![](/exercises/ex2/images/Evaluation/image-3.png)
 
 >The evaluation is triggered in the background. The status is changed to in-progress.
 
 5. Click on refresh until the evaluation status changed to completed (green flag) 
+![Alt text](image-1.png)
 <br>![](/exercises/ex2/images/Evaluation/image-4.png)
 
 ### Exercise 2.6.2 Check evaluation results
 
 >The overview tab shows extraction status of both systems. Only when both are completed evaluation can be performed. It displays evaluation execution details.
 1. Check Overview tab.
+![Alt text](image-2.png)
 <br>![](/exercises/ex2/images/Evaluation/image-5.png)
 
 >Worklist Items tab displays evaluation count for each workitem categorised in different parameters.
-2. Click on Worklist Items. 
+2. Click on Worklist Items.
+
 <br>![](/exercises/ex2/images/Evaluation/image-6.png)
 
 >Result tab displays entire evaluated data categorised in different parameters. Actual evaluated data can be checked.
@@ -305,9 +307,11 @@ This screen provides the list of all the reports or transactions configured in t
 The sign-off status is provided in the tool, for user to indicate if the results of evaluation are good enough for actual sign-off of the validation. 
 
 1. Click on Sign Off>Approve from the menu bar.
+![Alt text](image-3.png)
 <br>![](/exercises/ex2/images/Evaluation/image-9.png)
 
 2. Check sign off results in Overview tab.
+![Alt text](image-4.png)
 <br>![](/exercises/ex2/images/Evaluation/image-10.png)
 
 
