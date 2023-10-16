@@ -95,7 +95,7 @@ In this exercise, you will define the input parameters for each report. The inpu
 
 > Input parameter: Split <br>
 The split represents the granularity at which the data is extracted and compared. The granularity of each split is represented as Workitem and Workitem description specifies the value for it.
-> <li> For Example: If the company is specified as split condition, then the results are extracted and compared at the granularity of company.
+> <br> For Example: If the company is specified as split condition, then the results are extracted and compared at the granularity of company.
 2. Double click on report name and go to split tab. 
 <br>![](/exercises/ex2/images/Define%20test%20specification/image-1.png)
 
