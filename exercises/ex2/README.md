@@ -146,17 +146,18 @@ In the previous step, we maintained split parameters for each report. In this st
 <br>![](/exercises/ex2/images/Project%20global%20data/image-6.png)
 
 ## Exercise 2.3 Perform Simulation (OPTIONAL)
-In the following exercise you will learn how simulate the execution of tests. Purpose of the simulation is to provide you the ability to check if the extraction of data is successful with the provided input. This is more relevant to check for the memory and runtime requirements. Simulation results provide information about artifacts, such as:
+In the following exercise you will learn how simulate the execution of tests. Purpose of the simulation is to provide you the ability to check if the extraction of data is successful with the provided input. This is more relevant when one has to check for the memory and runtime requirements. Simulation results provide information about artifacts, such as:
 <li>If the simulation was successful, then how many records were selected, and what is the memory size.
 <li>If the simulation was unsuccessful, then the same is indicated by the status.
 <li>In the Logs tab, the logs of the execution is shown. If the simulation is unsuccessful, the log provides appropriate message.
 
+Note : In the interest of time, it is recommended to skip this Exercise and proceed with Exercise 2.4 . You may revisit this section , once the other sections are completed.
 
 ### Exercise 2.3.1 Execute simulation
 1. Click on back button and double click on Define Test Specification step.
 <br>![](/exercises/ex2/images/Simulation/image-0.png)
 
-2. Select both reports and click on Simulate button. (To select both reports, click on select all button on the alv) 
+2. Select both reports and click on Simulate button. (To select both reports, click on select all button on the ALV List) 
 <br>![](/exercises/ex2/images/Simulation/image-1.png)
 
 >The execution runs in the background. The simulation status changes to in progress.
@@ -176,7 +177,7 @@ In the following exercise you will learn how simulate the execution of tests. Pu
 2. Check the Result.
 <br>![](/exercises/ex2/images/Simulation/image-5.png)
 
->The Logs tab shows the background activities during execution. Also, if simulation fails, the reason can be checked in logs.
+>The Logs tab shows the execution log. Also, if simulation fails, the reason can be checked in logs.
 3. Check Logs
 <br>![](/exercises/ex2/images/Simulation/image-6.png)
 
@@ -184,7 +185,8 @@ In the following exercise you will learn how simulate the execution of tests. Pu
 
 
 ## Exercise 2.4 Extraction in Source system
-In the following exercise you will learn how extract data in source system. The extraction screen provides a list of all the reports or transactions configured in the Define Test Specification screen. The data for such reports can be extracted from this screen. The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
+In the following exercise you will learn how extract data in source system. The extraction screen provides a list of all the reports or transactions configured in the Project. The data for such reports can be extracted from this screen. 
+The reports are shown in a tree structure with the hierarchy as Business Area >  Business Group  Type  > Report Name > System names. Extraction of reports is performed only on the leaf nodes, which are on the nodes where System IDs are present.
 
 ### Exercise 2.4.1 Execute extraction
 1. Click on back button and double click on Execute Data Extraction step.
@@ -216,7 +218,7 @@ In the following exercise you will learn how extract data in source system. The 
 3. Click on Worklist Items tab.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-7.png)
 
->Log tab shows the execution process happening in the background.
+>Log tab shows the execution log
 4. Cick on Log tab.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-9.png)
 
