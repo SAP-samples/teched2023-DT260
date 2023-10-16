@@ -227,7 +227,10 @@ In the following exercise you will learn how extract data in source system. The 
 ***************************************** **CONVERSION** ************************************************
 ## Exercise 2.5 System conversion
 
-1. Login to the S/4 system
+The source system is now handed over for System Conversion. Once the Sytem conversion is complete the source ECC system is converted to a target SAP S/4HANA system. 
+We have performed such a conversion and have provided you with a target SAP S/4HANA system. The next set of exercises are to be performed in the target system. 
+
+1. Login to the SAP S/4HANA system
 <br>![](/exercises/ex2/images/System%20Conversion/image-0.png)
 
 ## Exercise 2.6 Extraction in Target system
