@@ -8,7 +8,8 @@ The data transition validation is a tool that allows you to compare business dat
 In the hands-on session <hands on ID>, you will get to experience the processes involved in the business data validation using DTV tool during the ECC to SAP S/4HANA conversion.  You will get experience of creating a DTV project, Maintaining Test specification, data extraction in source and target and finally performing data evaluation and obtain the comparison results.  
 <br>![](/exercises/ex2/images/Introduction/image-1.png)
 
-Login to your SAP TechEd system , and open the SAP Launchpad. Use the system named ECC Prior to conversion for the below activity of Project setup , Maintain systems , Import pre-delivered content, Maintain test specificaion and Souce Extraction  
+Login to your SAP TechEd system , and open the SAP Launchpad. Use the system named ECC Prior to conversion for the below activity of Project setup , Maintain systems , Import pre-delivered content, Maintain test specificaion and Souce Extraction.
+<br>![](/exercises/ex2/images/Introduction/image-3.png)
 
 ## Exercise 2.1 User and Project setup
 
