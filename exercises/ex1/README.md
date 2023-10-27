@@ -37,7 +37,7 @@ Continue as described below.
 
    <br>![](/exercises/ex1/images/mp_003.png)</i>
 
-   On selecting the same, thecurrent SAP ERP product version present on the system shows up in the "Current Version" field. Make the selections as shown in the screenshot below for "Target Version", "Target Stack". The "Target Product Instances" will be pre-selected.
+   On selecting the same, the current SAP ERP product version present on the system shows up in the "Current Version" field. Make the selections as shown in the screenshot below for "Target Version", "Target Stack". The "Target Product Instances" will be pre-selected.
 
    <br>![Target selections](/exercises/ex1/images/mp_004.png)</i>
 
