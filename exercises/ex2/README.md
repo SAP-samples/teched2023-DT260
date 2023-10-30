@@ -302,7 +302,6 @@ The reports are shown in a tree structure with the hierarchy as Business Area > 
 
 >Worklist Items tab displays evaluation count for each workitem categorised in different dimensions.
 2. Click on Worklist Items.
-
 <br>![](/exercises/ex2/images/Evaluation/image-6.png)
 
 >Result tab displays entire evaluated data categorised in different dimensions. Actual evaluated data can be checked by clicking on the data column.
