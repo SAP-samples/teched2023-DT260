@@ -88,6 +88,8 @@ In this exercise, you will learn to import the pre delivered set of reports from
 ### Exercise 2.2.2 Maintain test specification
 In this exercise, you will define the input parameters for each report. The input parameters are – Split, Conditions and Variant. These parameters will be considered for data extraction.
 
+Configuration is already done for this exercise. Please check all the required tabs and save the configuration.
+
 &#x1F4A1; Note: When a report is imported from pre-delivered content, the tool suggests certain split and conditions for each report. These parameters can be modified as per the scope.
 
 1. Click on back button and double click on Define Test Specification
@@ -146,13 +148,13 @@ In the previous step, we maintained split parameters for each report. In this st
 <br>![](/exercises/ex2/images/Project%20global%20data/image-6.png)
 
 ## Exercise 2.3 Perform Simulation (OPTIONAL)
-In the following exercise you will learn how simulate the execution of tests. Purpose of the simulation is to provide you the ability to check if the extraction of data is successful with the provided input. This is more relevant when one has to check for the memory and runtime requirements. Simulation results provide information about artifacts, such as:
+<b>&#x1F4A1; Note : In the interest of time, it is recommended to skip this Exercise and proceed with Exercise 2.4 . You may revisit this section, once the other sections are completed. </b> <br>
+In the following exercise you will learn how to simulate the execution of tests. Purpose of the simulation is to provide you the ability to check if the extraction of data is successful with the provided input. This is more relevant when one has to check for the memory and runtime requirements. Simulation results provide information about artifacts, such as:
 <li>If the simulation was successful, then how many records were selected, and what is the memory size.
 <li>If the simulation was unsuccessful, then the same is indicated by the status.
 <li>In the Logs tab, the logs of the execution is shown. If the simulation is unsuccessful, the log provides appropriate message. 
 
 <br>
-&#x1F4A1; Note : In the interest of time, it is recommended to skip this Exercise and proceed with Exercise 2.4 . You may revisit this section , once the other sections are completed.
 
 ### Exercise 2.3.1 Execute simulation
 1. Click on back button and double click on Define Test Specification step.
@@ -201,7 +203,7 @@ The reports are shown in a tree structure with the hierarchy as Business Area > 
 3. Double click on RFBILA00 > ECC node. Right side of the screen is loaded showing different tabs.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-2.png)
 
-4. Select RFBILA00>ECC and RFDEPL00>ECC.  And click on Run Selected button. (Press Ctrl and select both nodes)
+4. Select RFBILA00>ECC and RFDEPL00>ECC. (Press Ctrl and select both nodes). And click on Run Selected button.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-3.png)
 
 >The extraction is triggered in background. The status changes to in -progress.
@@ -234,7 +236,7 @@ The reports are shown in a tree structure with the hierarchy as Business Area > 
 &#x1F4A1; The source system is now handed over for System Conversion. Once the Sytem conversion is complete the source ECC system is converted to a target SAP S/4HANA system. 
 We have performed such a conversion and have provided you with a target SAP S/4HANA system. The next set of exercises are to be performed in the target system. 
 
-1. Login to the SAP S/4HANA system
+1. Close the ECC system and login to the SAP S/4HANA system
 <br>![](/exercises/ex2/images/System%20Conversion/image-0.png)
 
 ## Exercise 2.6 Extraction in Target system
