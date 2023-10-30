@@ -309,10 +309,13 @@ The reports are shown in a tree structure with the hierarchy as Business Area > 
 3. Click on Result tab. Click on Equal>Data.
 <br>![](/exercises/ex2/images/Evaluation/image-7.png)
 
-4. Check the evaluation results
+4. If the pop-up is displayed, click on yes. Otherwise skip to step 5.
+<br>![](/exercises/ex2/images/Evaluation/image-9.png)
+
+5. Check the evaluation results
 <br>![](/exercises/ex2/images/Evaluation/image-8.png)
 
->Similarly, you can check results for RFDEPL00 report by double click on the report.
+>Similarly, you can check results for RFDEPL00 report by double click on the report. 
 
 ## Exercise 2.8 Check Summary
 In the following exercise you can check summary of the overall project and its status.
