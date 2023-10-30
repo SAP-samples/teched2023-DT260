@@ -206,8 +206,11 @@ The reports are shown in a tree structure with the hierarchy as Business Area > 
 4. Select RFBILA00>ECC and RFDEPL00>ECC. (Press Ctrl and select both nodes). And click on Run Selected button.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-3.png)
 
+5. If the pop-up is displayed, click on yes. Otherwise skip to step 6.
+<br>![](/exercises/ex2/images/Extraction%20-%20Source/image-10.png)
+
 >The extraction is triggered in background. The status changes to in -progress.
-5. Click on Refresh to fetch the latest status. Once the execution status is completed (green flag), check the details on the right side.
+6. Click on Refresh to fetch the latest status. Once the execution status is completed (green flag), check the details on the right side.
 <br>![](/exercises/ex2/images/Extraction%20-%20Source/image-4.png)
 
 ### Exercise 2.4.2 Check source extraction results
