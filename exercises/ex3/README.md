@@ -48,7 +48,7 @@ Continue as described below.
 
    In this step, you can identify critical SAP Notes recommendation
 
-   1. Select S/4HANA system: "S4Z" and click on "Calculate Notes".
+   1. Select S/4HANA system: "S4ZP-DUB" and click on "Calculate Notes".
 
       <br>![](/exercises/ex3/images/mp_305.png)</i>
 
