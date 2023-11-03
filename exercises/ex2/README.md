@@ -12,6 +12,7 @@ Login to your SAP TechEd system , and open the SAP Launchpad. Use the system nam
 <br>![](/exercises/ex2/images/Introduction/image-2.png)
 
 &#x1F4A1; Note : DTV Central Note <a href = "https://me.sap.com/notes/3117879" > 3117879 </a>
+
 ## Exercise 2.1 User and Project setup
 
 Create your first DTV project. 
